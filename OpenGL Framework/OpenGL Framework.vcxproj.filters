@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="field.cpp" />
+    <ClCompile Include="FieldManager.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="object.cpp" />
+    <ClCompile Include="random.cpp" />
+    <ClCompile Include="stateManager.cpp" />
+    <ClCompile Include="SpriteManager.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Trajectory.cpp" />
+    <ClCompile Include="FallTrajectory.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Scoreboard.cpp" />
+    <ClCompile Include="SideTrajectory.cpp" />
+    <ClCompile Include="WeaponDrop.cpp" />
+<<<<<<< Updated upstream
+    <ClCompile Include="main.cpp" />
+=======
+    <ClCompile Include="FollowTrajectory.cpp" />
+>>>>>>> Stashed changes
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="collInfo.h" />
+    <ClInclude Include="field.h" />
+    <ClInclude Include="FieldManager.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="gamedefs.h" />
+    <ClInclude Include="gameObjects.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="random.h" />
+    <ClInclude Include="stateManager.h" />
+    <ClInclude Include="types.h" />
+    <ClInclude Include="SpriteManager.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Trajectory.h" />
+    <ClInclude Include="FallTrajectory.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Scoreboard.h" />
+    <ClInclude Include="SideTrajectory.h" />
+    <ClInclude Include="WeaponDrop.h" />
+    <ClInclude Include="FollowTrajectory.h" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,156 @@
+// List of resources to bundle.
+//
+// The output will be a header file (.h) used at compile time,
+// and a packed resource file (.xpr) used at runtime.
+
+out_header         Resource.h
+out_packedresource Media\Resource.xpr
+out_error          Media\Resource.err
+out_prefix         resource
+
+Texture BG_TITLE_SCREEN
+{
+   Source Media\title_screen.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture BG_SPACE
+{
+   Source Media\background2.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture BG_SLOW_SPACE
+{
+   Source Media\background3.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture ENEMY_SPRITE_GREEN
+{
+   Source Media\enemy_green.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture ENEMY_SPRITE_PURPLE
+{
+   Source Media\enemy_purple.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture ENEMY_SPRITE_RED
+{
+   Source Media\enemy_red.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture ENEMY_SPRITE_YELLOW
+{
+   Source Media\enemy_yellow.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture ENEMY_SPRITE_SHIP
+{
+   Source Media\enemy_ship.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture FAST_SHOT_WEAPON
+{
+   Source Media\fast_weapon.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture SPREAD_SHOT_WEAPON
+{
+   Source Media\spread_weapon.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture HOMING_SHOT_WEAPON
+{
+   Source Media\homing_weapon.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture MISSILE_SPRITE
+{
+   Source Media\missile.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture EXPLOSION_PLAYER_SPRITE
+{
+   Source Media\explosion_player.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture EXPLOSION_ENEMY_SPRITE
+{
+   Source Media\explosion_enemy.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture POINTS_SPRITES
+{
+   Source Media\scores.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture GAMEOVER_SPRITE
+{
+   Source Media\gameover.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture HIGH_SCORE_SPRITE
+{
+   Source Media\label.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture HORIZONTAL_LINE
+{
+   Source Media\horizontal_line.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture VERTICAL_LINE
+{
+   Source Media\vertical_line.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture PLAYER_SPRITE
+{
+   Source Media\player.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}
+
+Texture NUMBER_SPRITES
+{
+   Source Media\numbers.png
+   Format D3DFMT_A8R8G8B8
+   Levels 1
+}

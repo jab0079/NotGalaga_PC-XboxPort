@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="Galaxa"
+	ProjectGUID="{8C026714-962E-4EBB-88CF-CDABB62029A6}"
+	Keyword="XboxProj">
+	<Platforms>
+		<Platform
+			Name="Xbox"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Xbox"
+			OutputDirectory="Debug"
+			IntermediateDirectory="Debug"
+			ConfigurationType="1"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				OptimizeForProcessor="2"
+				AdditionalIncludeDirectories="&quot;..\..\OpenGL Framework&quot;;&quot;C:\Program Files\Microsoft Xbox SDK\Samples\Xbox\Common\Include&quot;;&quot;C:\Documents and Settings\XBOXDEV\Desktop\github\Galaxa\Xbox\Galaxa&quot;"
+				PreprocessorDefinitions="_DEBUG;_XBOX"
+				MinimalRebuild="TRUE"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				EnableEnhancedInstructionSet="1"
+				UsePrecompiledHeader="0"
+				PrecompiledHeaderFile="$(OutDir)/$(ProjectName).pch"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="4"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="xapilibd.lib d3d8d.lib d3dx8d.lib xgraphicsd.lib dsoundd.lib dmusicd.lib xactengd.lib xsndtrkd.lib xvoiced.lib xonlined.lib xboxkrnl.lib xbdm.lib"
+				OutputFile="$(OutDir)/$(ProjectName).exe"
+				LinkIncremental="2"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile="$(OutDir)/$(ProjectName).pdb"
+				SubSystem="2"
+				OptimizeForWindows98="1"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="XboxDeploymentTool"
+				AdditionalFiles="Media"/>
+			<Tool
+				Name="XboxImageTool"
+				StackSize="0x10000"
+				IncludeDebugInfo="TRUE"
+				DontMountUD="TRUE"
+				NoLibWarn="TRUE"
+				TitleID="0xffff881c"
+				TitleName="NotGalaga"
+				TitleImage=""
+				XBEVersion="4096"/>
+		</Configuration>
+		<Configuration
+			Name="Profile|Xbox"
+			OutputDirectory="Profile"
+			IntermediateDirectory="Profile"
+			ConfigurationType="1"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="3"
+				OmitFramePointers="TRUE"
+				OptimizeForProcessor="2"
+				PreprocessorDefinitions="NDEBUG;_XBOX;PROFILE"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				BufferSecurityCheck="TRUE"
+				EnableFunctionLevelLinking="TRUE"
+				EnableEnhancedInstructionSet="1"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderFile="$(OutDir)/$(ProjectName).pch"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="xapilib.lib d3d8i.lib d3dx8.lib xgraphics.lib dsound.lib dmusici.lib xactengi.lib xsndtrk.lib xvoice.lib xonlines.lib xboxkrnl.lib xbdm.lib xperf.lib"
+				OutputFile="$(OutDir)/$(ProjectName).exe"
+				LinkIncremental="1"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile="$(OutDir)/$(ProjectName).pdb"
+				SubSystem="2"
+				OptimizeReferences="2"
+				EnableCOMDATFolding="2"
+				OptimizeForWindows98="1"
+				SetChecksum="TRUE"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="XboxDeploymentTool"/>
+			<Tool
+				Name="XboxImageTool"
+				StackSize="65536"
+				IncludeDebugInfo="TRUE"
+				NoLibWarn="TRUE"/>
+		</Configuration>
+		<Configuration
+			Name="Profile_FastCap|Xbox"
+			OutputDirectory="Profile_FastCap"
+			IntermediateDirectory="Profile_FastCap"
+			ConfigurationType="1"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="3"
+				OmitFramePointers="TRUE"
+				OptimizeForProcessor="2"
+				PreprocessorDefinitions="NDEBUG;_XBOX;PROFILE;FASTCAP"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				BufferSecurityCheck="TRUE"
+				EnableFunctionLevelLinking="TRUE"
+				EnableEnhancedInstructionSet="1"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderFile="$(OutDir)/$(ProjectName).pch"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+				FastCAP="TRUE"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="xapilib.lib d3d8i.lib d3dx8.lib xgraphics.lib dsound.lib dmusici.lib xactengi.lib xsndtrk.lib xvoice.lib xonlines.lib xboxkrnl.lib xbdm.lib xperf.lib"
+				OutputFile="$(OutDir)/$(ProjectName).exe"
+				LinkIncremental="1"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile="$(OutDir)/$(ProjectName).pdb"
+				SubSystem="2"
+				OptimizeReferences="2"
+				EnableCOMDATFolding="2"
+				OptimizeForWindows98="1"
+				SetChecksum="TRUE"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="XboxDeploymentTool"/>
+			<Tool
+				Name="XboxImageTool"
+				StackSize="65536"
+				IncludeDebugInfo="TRUE"
+				NoLibWarn="TRUE"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Xbox"
+			OutputDirectory="Release"
+			IntermediateDirectory="Release"
+			ConfigurationType="1"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="3"
+				OmitFramePointers="TRUE"
+				OptimizeForProcessor="2"
+				PreprocessorDefinitions="NDEBUG;_XBOX"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				BufferSecurityCheck="TRUE"
+				EnableFunctionLevelLinking="TRUE"
+				EnableEnhancedInstructionSet="1"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderFile="$(OutDir)/$(ProjectName).pch"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="xapilib.lib d3d8.lib d3dx8.lib xgraphics.lib dsound.lib dmusic.lib xacteng.lib xsndtrk.lib xvoice.lib xonlines.lib xboxkrnl.lib"
+				OutputFile="$(OutDir)/$(ProjectName).exe"
+				LinkIncremental="1"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile="$(OutDir)/$(ProjectName).pdb"
+				SubSystem="2"
+				OptimizeReferences="2"
+				EnableCOMDATFolding="2"
+				OptimizeForWindows98="1"
+				SetChecksum="TRUE"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="XboxDeploymentTool"/>
+			<Tool
+				Name="XboxImageTool"
+				StackSize="65536"/>
+		</Configuration>
+		<Configuration
+			Name="Release_LTCG|Xbox"
+			OutputDirectory="Release_LTCG"
+			IntermediateDirectory="Release_LTCG"
+			ConfigurationType="1"
+			CharacterSet="2"
+			WholeProgramOptimization="TRUE">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="3"
+				OmitFramePointers="TRUE"
+				OptimizeForProcessor="2"
+				PreprocessorDefinitions="NDEBUG;_XBOX;LTCG"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				BufferSecurityCheck="TRUE"
+				EnableFunctionLevelLinking="TRUE"
+				EnableEnhancedInstructionSet="1"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderFile="$(OutDir)/$(ProjectName).pch"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="xapilib.lib d3d8ltcg.lib d3dx8.lib xgraphicsltcg.lib dsound.lib dmusicltcg.lib xactengltcg.lib xsndtrk.lib xvoice.lib xonlines.lib xboxkrnl.lib"
+				OutputFile="$(OutDir)/$(ProjectName).exe"
+				LinkIncremental="1"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile="$(OutDir)/$(ProjectName).pdb"
+				SubSystem="2"
+				OptimizeReferences="2"
+				EnableCOMDATFolding="2"
+				OptimizeForWindows98="1"
+				SetChecksum="TRUE"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="XboxDeploymentTool"/>
+			<Tool
+				Name="XboxImageTool"
+				StackSize="65536"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="..\..\OpenGL Framework\Bullet.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\Enemy.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\Explosion.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\FallTrajectory.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\field.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\FieldManager.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\FollowTrajectory.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\game.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\GameManager.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\HorizontalLine.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\jsy\jsy.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\main.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\object.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\Player.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\random.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\Scoreboard.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\SideTrajectory.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\Sprite.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\SpriteManager.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\stateManager.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\Trajectory.cpp">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\WeaponDrop.cpp">
+			</File>
+			<File
+				RelativePath=".\xbinput.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="..\..\OpenGL Framework\Bullet.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\collInfo.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\Enemy.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\Explosion.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\FallTrajectory.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\field.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\FieldManager.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\FollowTrajectory.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\game.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\gamedefs.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\GameManager.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\HorizontalLine.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\jsy\jsy.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\jsy\jsy_internal.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\Object.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\Player.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\random.h">
+			</File>
+			<File
+				RelativePath=".\Resource.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\Scoreboard.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\SideTrajectory.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\jsy\SOIL.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\Sprite.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\SpriteManager.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\stateManager.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\Trajectory.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\jsy\types.h">
+			</File>
+			<File
+				RelativePath="..\..\OpenGL Framework\WeaponDrop.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Resources"
+			Filter="*.rdf">
+			<File
+				RelativePath=".\resource.rdf">
+				<FileConfiguration
+					Name="Debug|Xbox">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="bundler &quot;$(InputPath)&quot;"
+						CommandLine="bundler &quot;$(InputPath)&quot;"
+						Outputs="$(ProjectDir)Media\$(InputName).xpr;$(ProjectDir)$(InputName).h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Profile|Xbox">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="bundler &quot;$(InputPath)&quot;"
+						CommandLine="bundler &quot;$(InputPath)&quot;"
+						Outputs="$(ProjectDir)Media\$(InputName).xpr;$(ProjectDir)$(InputName).h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Profile_FastCap|Xbox">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="bundler &quot;$(InputPath)&quot;"
+						CommandLine="bundler &quot;$(InputPath)&quot;"
+						Outputs="$(ProjectDir)Media\$(InputName).xpr;$(ProjectDir)$(InputName).h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Xbox">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="bundler &quot;$(InputPath)&quot;"
+						CommandLine="bundler &quot;$(InputPath)&quot;"
+						Outputs="$(ProjectDir)Media\$(InputName).xpr;$(ProjectDir)$(InputName).h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release_LTCG|Xbox">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="bundler &quot;$(InputPath)&quot;"
+						CommandLine="bundler &quot;$(InputPath)&quot;"
+						Outputs="$(ProjectDir)Media\$(InputName).xpr;$(ProjectDir)$(InputName).h"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<File
+			RelativePath="..\..\OpenGL Framework\fmod.dll">
+		</File>
+		<File
+			RelativePath=".\ReadMe.txt">
+		</File>
+		<File
+			RelativePath="..\..\OpenGL Framework\snoods_default.png">
+		</File>
+		<File
+			RelativePath="..\..\Xbox\Input\Gamepad\titleimage.xbx">
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

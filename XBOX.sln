@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Galaxa", "Xbox\Galaxa\Galaxa.vcproj", "{8C026714-962E-4EBB-88CF-CDABB62029A6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Profile = Profile
+		Profile_FastCap = Profile_FastCap
+		Release = Release
+		Release_LTCG = Release_LTCG
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8C026714-962E-4EBB-88CF-CDABB62029A6}.Debug.ActiveCfg = Debug|Xbox
+		{8C026714-962E-4EBB-88CF-CDABB62029A6}.Debug.Build.0 = Debug|Xbox
+		{8C026714-962E-4EBB-88CF-CDABB62029A6}.Profile.ActiveCfg = Profile|Xbox
+		{8C026714-962E-4EBB-88CF-CDABB62029A6}.Profile.Build.0 = Profile|Xbox
+		{8C026714-962E-4EBB-88CF-CDABB62029A6}.Profile_FastCap.ActiveCfg = Profile_FastCap|Xbox
+		{8C026714-962E-4EBB-88CF-CDABB62029A6}.Profile_FastCap.Build.0 = Profile_FastCap|Xbox
+		{8C026714-962E-4EBB-88CF-CDABB62029A6}.Release.ActiveCfg = Release|Xbox
+		{8C026714-962E-4EBB-88CF-CDABB62029A6}.Release.Build.0 = Release|Xbox
+		{8C026714-962E-4EBB-88CF-CDABB62029A6}.Release_LTCG.ActiveCfg = Release_LTCG|Xbox
+		{8C026714-962E-4EBB-88CF-CDABB62029A6}.Release_LTCG.Build.0 = Release_LTCG|Xbox
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
